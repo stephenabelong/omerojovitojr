@@ -1,0 +1,96 @@
+:root{
+
+    --bg1: #5f074f;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #f5f2f5;
+    --white: rgb(235, 235, 235);
+    --p: rgb(161, 150, 150)
+}
+#banner{
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 7%, 12%, 0.264), rgb(44, 42,42, 0315)), url('https://img.freepik.com/premium-photo/gamer-playing-desktop-pc-computer-gaming-illustration-commercial-photography_950002-31755.jpg?w=826');
+    background-size: cover;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand:hover{
+    background-color: transparent;
+    color: rgb(120, 18, 132);
+    border-color: #730968;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon-img-box{
+    width: 40%;
+}
+
+.card{
+    transition: background-color 0.3s, 0.3s;
+}
+
+.card:hover{
+    background-color: #370348;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #fff;
+}
+
+.btn-outlined-brand {
+    color: #000000;
+    background-color: transparent;
+    border-color: #aa00ff;
+}
+
+.btn-outlined-brand:hover {
+    background-color: #aa00ff;
+}
+
+#cta {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 20%, 99%, 0.445), rgb(44, 42,42, 0315)), url('https://img.freepik.com/premium-photo/gamer-playing-desktop-pc-computer-gaming-illustration-commercial-photography_950002-31755.jpg?w=826');
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.card img {
+    filter: drop-shadow(15px 5px 4px #000000);
+}
+
+#reviews{
+    background-color: var(--white);
+}
+
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+ .testimonials img {
+    width: 60px;
+    border-radius: 50px;
+    height: 65px;
+
+ }
+
+ #reviews {
+    color: var(--brand);
+
+ }
